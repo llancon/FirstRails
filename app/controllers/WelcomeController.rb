@@ -1,0 +1,6 @@
+class WelcomeConroller < ApplicationController
+
+
+
+
+end
