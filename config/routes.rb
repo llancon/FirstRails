@@ -2,6 +2,6 @@ Rails.application.routes.draw do
 
   get '/' => 'welcome#index'
   get '/welcome/(:name)' => 'welcome#show'
-# get '/chew/:flavor' => 'welcome#bubblegum'
+get '/welcome/lorem/(:lorems)' => 'welcome#lorem'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
